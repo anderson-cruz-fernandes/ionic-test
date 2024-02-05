@@ -1,5 +1,5 @@
+@if (message) {
 <ion-item
-  *ngIf="message"
   [routerLink]="'/message/' + message.id"
   [detail]="false"
 >
@@ -29,3 +29,4 @@
     </p>
   </ion-label>
 </ion-item>
+}
